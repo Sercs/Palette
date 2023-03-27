@@ -965,7 +965,7 @@ def ok_transition(rgb1, rgb2, n):
     Uncomment below to see example use cases
 """
 
-
+"""
 # Example use cases:
 # multi-condition
 walk = np.arange(10)
@@ -1028,3 +1028,4 @@ x = np.linspace(0, 1, len(palette))
 for i in range(len(palette)):
     plt.vlines(x[i], 0, 1, color=palette[i])
 plt.show()
+"""
